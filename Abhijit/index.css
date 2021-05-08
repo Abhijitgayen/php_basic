@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: aqua;
+    max-width: 80%;
+    color: black;
+    padding :13px;
+    margin: auto;
+}
+.container h3, .container p{
+    text-align: center;
+}
+.container p{
+    margin-bottom: 63px;
+}
+input,textarea{
+    display: block;
+    margin: 11px auto;
+    padding: 7px;
+    font-size: 13px;
+    width: 80%;
+    border: 2px solid red;
+  outline: none;
+ border-radius:12px ;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+}
+.btn{
+    background-color: hotpink;
+    font-size: 20px;
+    border: 2px solid red;
+    padding: 8px 12px;
+    border-radius: 12px;
+}
